@@ -3,11 +3,13 @@ public class Bottle {
     private String brand;
     private SizeType size;
     private RegionType region;
+    private int price;
 
-    public Bottle(String brand, SizeType size, RegionType region){
+    public Bottle(String brand, SizeType size, RegionType region, int price){
         this.brand = brand;
         this.size = size;
         this.region = region;
+        this.price = price;
     }
 
 
@@ -22,6 +24,12 @@ public class Bottle {
     public RegionType getRegion(){
         return this.region;
     }
+
+    public int getPrice(){
+        return this.price;
+    }
+
+
 
 }
 

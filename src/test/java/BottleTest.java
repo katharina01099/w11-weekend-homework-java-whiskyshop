@@ -9,7 +9,7 @@ public class BottleTest {
 
     @Before
     public void before(){
-        bottle = new Bottle("Glenmorangie", SizeType.MEDIUM, RegionType.SPEYSIDE);
+        bottle = new Bottle("Glenmorangie", SizeType.MEDIUM, RegionType.SPEYSIDE, 35);
 
     }
 
@@ -26,5 +26,10 @@ public class BottleTest {
     @Test
     public void bottleHasARegion(){
         assertEquals(RegionType.SPEYSIDE, bottle.getRegion());
+    }
+
+    @Test
+    public void bottleHasAPrice(){
+        assertEquals(35, bottle.getPrice());
     }
 }
