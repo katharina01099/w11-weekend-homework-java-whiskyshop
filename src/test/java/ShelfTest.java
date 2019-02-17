@@ -48,7 +48,7 @@ public class ShelfTest {
 
     @Test
     public void shelfCanCheckoutBottles(){
-        assertEquals(39, shelf1.checkOutBottles());
+        assertEquals(39, shelf1.checkOutBottles(bottle1));
     }
 }
 

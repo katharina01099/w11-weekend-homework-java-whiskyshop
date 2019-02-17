@@ -35,8 +35,13 @@ public class Shelf {
         if (!isFull()) {
             this.bottles.add(bottle);
         }
-
     }
+
+    public boolean checkOutBottles(Bottle bottle){
+       return this.bottles.remove(bottle);
+    }
+
+
 }
 
 
