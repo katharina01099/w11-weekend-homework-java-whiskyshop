@@ -1,0 +1,28 @@
+public class Bottle {
+
+    private String brand;
+    private SizeType size;
+    private RegionType region;
+
+    public Bottle(String brand, SizeType size, RegionType region){
+        this.brand = brand;
+        this.size = size;
+        this.region = region;
+    }
+
+
+    public String getBrand(){
+        return this.brand;
+    }
+
+    public SizeType getSize(){
+        return this.size;
+    }
+
+    public RegionType getRegion(){
+        return this.region;
+    }
+
+}
+
+
