@@ -15,8 +15,4 @@ public class Tilt {
         return this.amount;
     }
 
-    public double getBill(){
-        return this.amount * bottle.getPrice();
-    }
-
 }

@@ -12,7 +12,7 @@ public class ShelfTest {
     @Before
     public void before(){
         shelf1 = new Shelf(3, 40);
-        bottle1 = new Bottle("Laphroigh", SizeType.LARGE, RegionType.ISLA);
+        bottle1 = new Bottle("Laphroigh", SizeType.LARGE, RegionType.ISLA, 35);
     }
 
     @Test

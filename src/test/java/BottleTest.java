@@ -30,6 +30,6 @@ public class BottleTest {
 
     @Test
     public void bottleHasAPrice(){
-        assertEquals(35, bottle.getPrice());
+        assertEquals(35, bottle.getPricePerBottle());
     }
 }

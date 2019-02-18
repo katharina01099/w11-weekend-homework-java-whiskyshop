@@ -1,17 +1,19 @@
 import org.junit.Before;
 import org.junit.Test;
 
+import static org.junit.Assert.assertEquals;
+
 public class SaleTest {
 
-    Sale sale;
+    Sale sale1;
 
     @Before
     public void before(){
-        sale1 = new Sale;
+        sale1 = new Sale(2, 35);
     }
 
     @Test
     public void totalSingleSale(){
-        assert.Equals(70, sale1.amount());
+        assertEquals(70, sale1.amount());
     }
 }
